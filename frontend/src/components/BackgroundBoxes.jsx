@@ -39,14 +39,14 @@ export const BoxesCore = ({ className, ...rest }) => {
         >
           {cols.map((_, j) => (
             <motion.div
-              whileHover={{
-                backgroundColor: `var(${getRandomColor()})`,
-                transition: { duration: 0 },
-              }}
-              animate={{
-                transition: { duration: 2 },
-              }}
               key={`col` + j}
+              whileHover={{
+                backgroundColor: "#0ea5e9",
+                opacity: 0.4,
+              }}
+              transition={{
+                duration: 0.2,
+              }}
               className="w-16 h-8 border-r border-t border-slate-700 relative"
             >
               {j % 2 === 0 && i % 2 === 0 ? (

@@ -1,4 +1,5 @@
-# Environment — never commit real secrets
+# Environment 
+.env
 backend/.env
 frontend/.env
 frontend/.env.local
@@ -19,5 +20,7 @@ backend/logs/
 
 # Docker volumes (local data)
 postgres_data/
-redis_data/backend/.env
-.env
+redis_data/
+
+combined.log
+error.log   

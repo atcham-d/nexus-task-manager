@@ -33,7 +33,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen relative overflow-hidden">
       {/* Left panel */}
       <div className="hidden lg:flex flex-col justify-between w-1/2 bg-surface-950 border-r border-surface-900 p-12 relative overflow-hidden">
-        <BackgroundBoxes />
+        <BackgroundBoxes className="absolute inset-0 z-0" />
 
         <div className="flex items-center gap-3 relative z-10">
           <div className="w-9 h-9 bg-brand-500 rounded-xl flex items-center justify-center text-white font-bold">NX</div>

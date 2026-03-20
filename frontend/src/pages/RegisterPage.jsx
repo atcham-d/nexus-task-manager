@@ -46,9 +46,9 @@ export default function RegisterPage() {
     <div className="flex min-h-screen relative overflow-hidden">
       {/* Left panel - Hidden on mobile */}
       <div className="hidden lg:flex flex-col justify-between w-1/2 bg-surface-950 border-r border-surface-900 p-12 relative overflow-hidden">
-        <BackgroundBoxes />
+        <BackgroundBoxes className="absolute inset-0 z-0" />
         
-        <div className="relative z-20 flex items-center gap-2.5">
+        <div className="relative z-10 flex items-center gap-2.5">
           <div className="w-10 h-10 bg-brand-500 rounded-xl flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-brand-500/20">NX</div>
           <span className="text-slate-100 font-bold text-xl tracking-tight">Nexus</span>
         </div>
