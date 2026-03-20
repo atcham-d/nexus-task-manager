@@ -1,0 +1,23 @@
+# Environment — never commit real secrets
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Logs
+backend/logs/
+*.log
+
+# OS
+.DS_Store
+
+# Docker volumes (local data)
+postgres_data/
+redis_data/backend/.env
+.env
