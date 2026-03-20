@@ -3,7 +3,7 @@ const app = require('../src/server');
 
 let userToken, adminToken, taskId, userId;
 
-const adminCreds = { email: 'admin@primetrade.ai', password: 'Admin@123456' };
+const adminCreds = { email: 'admin@nexus.ai', password: 'Admin@123456' };
 const userCreds = { email: `testuser_${Date.now()}@example.com`, password: 'Test@1234' };
 
 describe('Health Endpoints', () => {
